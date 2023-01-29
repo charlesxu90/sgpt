@@ -1,0 +1,46 @@
+name: sgpt-env
+
+channels:
+  - conda-forge
+  - defaults
+  - anaconda
+  - bioconda    # For vina
+  - hcc         # For adfr-suite
+  - pytorch     # For torch series
+
+dependencies:
+  - python=3.6
+  - pip
+
+# jupyter-lab dependencies
+  - ipython           
+  - ipywidgets
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab-nvdashboard
+  - jupyterlab-lsp
+  - matplotlib
+
+# machine learning & data analysis dependencies
+  - pytorch
+  - torchvision
+  - cudatoolkit=11.1
+  - tqdm
+  - numpy          
+  - scipy
+  - pandas
+  - scikit-learn=0.21.2  # For SVM model loading
+  - tensorboard
+  - protobuf
+
+# chemical libs
+  - libgcc=7.2.0        # For rdkit
+  - fcd_torch
+  - git-lfs
+  - pomegranate
+  - autodock-vina
+  - adfr-suite
+
+  - pip:
+    - -r requirements.txt
+
