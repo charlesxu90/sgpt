@@ -1,10 +1,10 @@
-# GPT generates more diverse scaffolds than GRU in exploring the chemical space
+# Optimization of binding affinities in chemical space with transformer and deep reinforcement learning
 
-This is the code to reproduce the results of SGPT-RL, a tool for chemical design using transformer and deep reinforcement learning. 
+This is the code of **SGPT-RL**, a tool for chemical design using transformer and deep reinforcement learning. Through employing GPT model as the policy network, SGPT-RL can learn scaffolds patterns in exploring the chemical space.
 
 ![Pipeline](./Pipeline.png)
 
-We found that through employing GPT model as the policy network, SGPT-RL can generate more diverse scaffolds in exploring the chemical space than Reinvent, which uses GRU as the policy network.
+
 
 ## Installation
 ### Create environment
