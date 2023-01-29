@@ -2,8 +2,7 @@
 
 This is the code of **SGPT-RL**, a tool for chemical design using transformer and deep reinforcement learning. Through employing GPT model as the policy network, SGPT-RL can learn scaffolds patterns in exploring the chemical space.
 
-![Pipeline](./Pipeline.png)
-
+![Workflow of SGPT-RL](./pipeline.png)
 
 
 ## Installation
