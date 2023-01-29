@@ -15,7 +15,7 @@ conda activate sgpt-env
 ```shell
 sudo apt-get install -y openbabel
 ```
-
+Need to remove the default `openbabel` in the conda environment if there's one.
 
 ## Running the code
 Download the datasets to train the prior model, pretrained prior and agent models, and the generated molecules from [Google Drive](https://drive.google.com/drive/folders/1HmlysSSg9umTQ4BpudWj8iqYW8QT1S95?usp=sharing).
