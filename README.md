@@ -38,14 +38,6 @@ python generate.py --model_path data/prior/gpt_model_10_0.126.pt --out_file resu
 
 ```
 
-## Acknowledge
-
-Some codes are adapted from other sources, so special thanks to:
-* [GuacaMol](https://github.com/BenevolentAI/guacamol) and [Guacamol_baselines](https://github.com/BenevolentAI/guacamol_baselines)
-* [MolScore](https://github.com/MorganCThomas/MolScore)
-* [MOSES](https://github.com/molecularsets/moses)
-* [MinGPT](https://github.com/karpathy/minGPT)
-
 ## License
 
 This code is licensed under [Apache License 2.0](./LICENSE).
