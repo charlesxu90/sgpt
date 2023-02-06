@@ -5,15 +5,21 @@ This is the code of **SGPT-RL**, a tool for chemical design using transformer an
 ![Workflow of SGPT-RL](./pipeline.png)
 
 ## Installation
-### Install git-lfs
-Please [install git-lfs](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage) before cloning this repository to successfully download the raw data and pretrained models associated with this repository.
-
-### Create environment
+### Clone & create environment
 ```shell
+git clone https://github.com/charlesxu90/sgpt.git
+cd sgpt
+
 conda env create -f environment.yml
 conda activate sgpt-env
 ```
-### Install Openbabel
+#### Download data and models using git-lfs
+In the conda environment, [git-lfs](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage) is installed. It can be used to download the raw data and pretrained models associated with this repository.
+
+```shell
+git lfs pull
+```
+## Install Openbabel
 ```shell
 sudo apt-get install -y openbabel
 ```
