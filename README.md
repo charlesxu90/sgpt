@@ -46,4 +46,4 @@ python generate.py --model_path data/prior/gpt_model_10_0.126.pt --out_file resu
 
 ## License
 
-This code is licensed under [Apache License 2.0](./LICENSE).
+This code is licensed under [Creative Commons Zero v1.0 Universal License](./LICENSE).
