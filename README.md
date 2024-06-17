@@ -47,3 +47,16 @@ python generate.py --model_path data/prior/gpt_model_10_0.126.pt --out_file resu
 ## License
 
 This code is licensed under [MIT License](./LICENSE).
+
+## Citation
+If you're using SGPT-RL in your research or applications, please cite using this BibTeX:
+
+@article{xu2024optimization,
+  title={Optimization of binding affinities in chemical space with generative pre-trained transformer and deep reinforcement learning},
+  author={Xu, Xiaopeng and Zhou, Juexiao and Zhu, Chen and Zhan, Qing and Li, Zhongxiao and Zhang, Ruochi and Wang, Yu and Liao, Xingyu and Gao, Xin},
+  journal={F1000Research},
+  volume={12},
+  pages={757},
+  year={2024},
+  publisher={F1000 Research Limited London, UK}
+}
