@@ -50,7 +50,7 @@ This code is licensed under [MIT License](./LICENSE).
 
 ## Citation
 If you're using SGPT-RL in your research or applications, please cite using this BibTeX:
-
+```bibtex
 @article{xu2024optimization,
   title={Optimization of binding affinities in chemical space with generative pre-trained transformer and deep reinforcement learning},
   author={Xu, Xiaopeng and Zhou, Juexiao and Zhu, Chen and Zhan, Qing and Li, Zhongxiao and Zhang, Ruochi and Wang, Yu and Liao, Xingyu and Gao, Xin},
@@ -60,3 +60,4 @@ If you're using SGPT-RL in your research or applications, please cite using this
   year={2024},
   publisher={F1000 Research Limited London, UK}
 }
+```
